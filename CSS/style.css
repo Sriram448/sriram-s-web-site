@@ -1,0 +1,149 @@
+body {
+	overflow-x: hidden;
+	margin: 0;
+}
+
+
+#banner1 {
+	display: block;
+	background-color: #00285c;
+	height: 50px;
+	width: 100%;
+}
+
+
+#column1 .cover {
+    width: 180px;
+	
+}	
+#column2 .title {
+    font-size: 20px;
+    color: #333;
+    font-weight: 700;
+}
+
+#banner1 p {
+	position: relative;
+	font-weight: bold;
+	font-size: 30px;
+	top: 7px;
+	margin: 0;
+	text-align: center;
+}
+
+#menu {
+	min-width: 500px;
+	width: 100%;
+	height: 100px;
+	position: relative;
+	background-color: #004bad;
+}
+
+#menu ul {
+	float: left;
+	left: 50%;
+	position: relative;
+	padding-top: 15px;
+	margin-left: -60px;
+}
+
+#menu ul li {
+	margin-left: 20px;
+	float: left;
+	list-style-type: none;
+	position: relative;
+	left: -50%;
+}
+
+
+
+#banner2 {
+	display: block;
+	background-color: #004bad;
+	height: 50px;
+	width: 100%;
+}
+
+#contenuprincipal {
+    display: block;
+    width: 1000px;
+    padding: 3%;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
+#textbas {
+	text-align: center;
+	display: block;
+	background-color: #cccccc;
+	height: 60px;
+}
+
+#textbas p {
+	color: #17202A;
+	font-weight: bold;
+	position: relative;
+	top: 18px;
+}
+
+.post-content p {
+    text-align: justify;
+}
+
+*, ::before, ::after {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+ padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(194, 191, 191);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-style  {
+    border-collapse: collapse;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+    cursor: pointer;
+    margin: 0px auto;
+    border: 2px solid rgb(34, 6, 197);
+}
+
+thead tr {
+    background-color: rgb(15, 18, 155);
+    color: rgb(180, 180, 180);
+    text-align: left;
+}
+
+th, td {
+    padding: 15px 20px;
+    text-align: center;
+}
+
+tbody tr, td, th {
+    border: 1px solid #ddd;
+}
+
+tbody tr:nth-child(even){
+    background-color: #f3f3f3;
+}
+
+@media screen and (max-width: 550px) {
+  body {
+    align-items: flex-start;
+  }
+  .table-style  {
+    width: 100%;
+    margin: 0px;
+    font-size: 10px;
+  }
+  th, td {
+    padding: 10px 7px;
+}
+
+}
